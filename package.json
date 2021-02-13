@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-contacts-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naieem-bd/NodeJS-Contacts-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naieem-bd/NodeJS-Contacts-App/issues"
+  },
+  "homepage": "https://github.com/naieem-bd/NodeJS-Contacts-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
