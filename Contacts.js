@@ -35,4 +35,4 @@ class Contacts {
     }
 }
 
-exports.contacts = new Contacts()
+module.exports = new Contacts()
