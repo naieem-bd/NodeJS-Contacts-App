@@ -4,6 +4,6 @@ exports.getAllContacts = (req, res) => {
     res.json(contacts.getAllContacts())
 }
 
-exports.createContacts = (req, res) => {
+exports.createContact = (req, res) => {
     console.log(req.body)
 }
