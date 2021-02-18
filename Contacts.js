@@ -7,7 +7,7 @@ class Contacts {
         return this.contacts
     }
 
-    getContactsById(id) {
+    getContactById(id) {
         return this.contacts.find(contact => contact.id === id)
     }
 
